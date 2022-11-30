@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  position: relative;
+}
+h1 {
+  margin-bottom: 15px;
+}
+h2 {
+  margin-top: 15px;
+}
+.container div p {
+  margin: 25px 0;
+  font-size: x-large;
+  font-weight: 400;
+}
+span {
+  content: "";
+  position: absolute;
+  background-color: #eee;
+  height: 2px;
+  width: 300px;
+}
+
+.blue {
+  color: blue;
+}
+.one {
+  top: 118px;
+}
+.one::after {
+  content: "";
+  position: absolute;
+  width: 145px;
+  height: 2px;
+  background-color: blue;
+}
+.one::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  top: -4px;
+  border-radius: 50%;
+}
+
+.red {
+  color: red;
+}
+.two {
+  top: 171px;
+}
+.two::after {
+  content: "";
+  position: absolute;
+  width: 145px;
+  height: 2px;
+  background-color: red;
+}
+.two::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  top: -4px;
+  border-radius: 50%;
+}
+
+.green {
+  color: green;
+}
+.three {
+  top: 226px;
+}
+.three::after {
+  content: "";
+  position: absolute;
+  width: 145px;
+  height: 2px;
+  background-color: green;
+}
+.three::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  top: -4px;
+  border-radius: 50%;
+}
+.orange {
+  color: orangered;
+}
+.four {
+  top: 274px;
+}
+.four::after {
+  content: "";
+  position: absolute;
+  width: 145px;
+  height: 2px;
+  background-color: orangered;
+}
+.four::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: orangered;
+  top: -4px;
+  border-radius: 50%;
+}
